@@ -1,0 +1,25 @@
+@media screen and (max-width:480px) {
+    :root{
+        --font-size-desc:1rem;
+    }
+    .card-container{
+        width: 100%;
+        
+    }
+    .hero-quote{
+        margin: 1rem
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:481px) {
+    :root{
+        --font-size-desc:1.2rem;
+    }
+    .card-container{
+        width: 75%;
+        
+    }
+    .hero-quote{
+        margin: 2rem 1rem
+    }
+}
